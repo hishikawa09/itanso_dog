@@ -60,17 +60,17 @@ end
 
 ###ワン！！###
 bot.command(:ote) do |event|
-#  number = rand(1..10)
+ numb = rand(1..10)
 
-if number == 1
+if numb == 1
   otete = "ワフ！ﾄﾞﾔｰｯ!"
-elsif number <= 3
+elsif numb <= 3
   otete = "ワン！！"
-elsif number <= 5
+elsif numb <= 5
   otete = "ワン！"
-elsif number <= 7
+elsif numb <= 7
   otete = "ワン……"
-elsif number <= 9
+elsif numb <= 9
   otete = "ｸｩｰﾝ?"
 else
   otete = "ｶﾞﾌﾞｰｰｰｰｯ!!"
