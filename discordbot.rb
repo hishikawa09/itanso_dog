@@ -36,7 +36,7 @@ bot.command(:omikuji) do |event|
       unsei = "大吉！ワン！"
     elsif number == 2 
     　unsei = "犬吉。ワン！！！"
-    elsif number <= 3
+    elsif number == 3
       unsei = "中吉。"
     elsif number <= 5
       unsei = "小吉。"
