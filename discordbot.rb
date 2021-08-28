@@ -20,7 +20,7 @@ bot.command(:help) do |event|
     message  = "`!omikuji : おみくじが引けます。\n"
     message += "!d1d100 : 1D100のサイコロを振ります。\n"
     message += "!janken : じゃんけんをします。（未実装）\n"
-    message += "!wan : ワン！\n"
+    message += "!ote : ワン！\n"
     message += "!help : このテキストを表示します。\n`"
   end
 
@@ -59,7 +59,7 @@ end
 
 
 ###ワン！！###
-bot.command(:wan) do |event|
+bot.command(:ote) do |event|
   event.respond "ワン！！"
 end
 
