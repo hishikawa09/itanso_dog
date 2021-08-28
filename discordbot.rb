@@ -60,7 +60,23 @@ end
 
 ###ワン！！###
 bot.command(:ote) do |event|
-  event.respond "ワン！！"
+#  number = rand(1..10)
+
+if number == 1
+  otete = "ワフ！ﾄﾞﾔｰｯ!"
+elsif number <= 3
+  otete = "ワン！！"
+elsif number <= 5
+  otete = "ワン！"
+elsif number <= 7
+  otete = "ワン……"
+elsif number <= 9
+  otete = "ｸｩｰﾝ?"
+else
+  otete = "ｶﾞﾌﾞｰｰｰｰｯ!!"
+end
+
+  event.respond "#{otete}"
 end
 
 
