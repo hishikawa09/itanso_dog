@@ -64,7 +64,9 @@ bot.command(:ote) do |event|
 
 if numb == 1
   otete = "ワフ！ﾄﾞﾔｰｯ!"
-elsif numb <= 3
+elsif numb == 2
+  otete = "犬"
+elsif numb == 3
   otete = "ワン！！"
 elsif numb <= 5
   otete = "ワン！"
